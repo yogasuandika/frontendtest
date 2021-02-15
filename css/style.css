@@ -1,0 +1,106 @@
+.getLogin {
+  text-align: right;
+}
+
+[class*="col"] {
+  border: 0px solid rgb(22, 22, 22);
+}
+[class*="con"] {
+  color: black;
+}
+
+.text-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-bottom: 200px;
+}
+.carousel-item {
+  height: 34rem;
+  background-color: rgb(78, 77, 77);
+  position: relative;
+  text-align: center;
+}
+.overlay-image {
+  position: absolute;
+  inset: 0;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.5;
+}
+
+.carousel-item .text-caption {
+  color: white;
+}
+
+.card-img-top {
+  border: none;
+}
+.card .card-shadow {
+  transition-property: background-color, border-color, color, fill, stroke,
+    opacity, box-shadow, transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+  --tw-shadow: 0 0 #0000;
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  height: 100%;
+}
+.card:hover .card-shadow {
+  --tw-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  cursor: pointer;
+}
+.bg-aqua {
+  background-color: #b6d3fe;
+}
+.bg-dark-blue {
+  background-color: #406a7f;
+}
+
+.btn-outline-booking {
+  color: #6c757d;
+  border-color: #6c757d;
+}
+
+.btn-booking:hover {
+  color: #fff;
+  background-color: #66a9cc;
+  border-color: #66a9cc;
+}
+.back-to-top {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  display: none;
+}
+
+@media (min-width: 576px) {
+  .text-mini input {
+    margin-left: 14px;
+  }
+}
+
+@media (min-width: 992px) {
+  .border-bawah {
+    border-bottom: 4px solid gray;
+  }
+  .border-samping {
+    border-left: 4px solid gray;
+  }
+  .border-kanan {
+    border-right: 6px solid gray;
+  }
+}
+
+@media (max-width: 576px) {
+  .text-mini input {
+    margin-left: 285px;
+  }
+  .border-kanan {
+    border-bottom: 6px solid gray;
+  }
+}
